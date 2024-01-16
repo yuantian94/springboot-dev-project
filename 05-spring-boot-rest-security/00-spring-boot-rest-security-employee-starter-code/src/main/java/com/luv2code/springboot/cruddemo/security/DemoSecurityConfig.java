@@ -43,7 +43,7 @@ public class DemoSecurityConfig {
 
 
     // add support for JDBC ... no more hardcoded users
-
+    // using bcrypt, no changes in java codes
     @Bean
     public UserDetailsManager userDetailsManager(DataSource dataSource){
         return new JdbcUserDetailsManager(dataSource);
