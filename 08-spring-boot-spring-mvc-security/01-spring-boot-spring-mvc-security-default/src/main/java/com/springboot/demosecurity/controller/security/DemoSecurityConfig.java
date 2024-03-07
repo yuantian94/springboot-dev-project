@@ -67,4 +67,6 @@ public class DemoSecurityConfig {
                 );
         return http.build();
     }
+
+    // Bcrpt doesn't involve with backend code. Only change in SQL
 }
