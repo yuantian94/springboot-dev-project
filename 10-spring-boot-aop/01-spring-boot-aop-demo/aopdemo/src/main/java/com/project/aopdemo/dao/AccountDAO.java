@@ -1,5 +1,7 @@
 package com.project.aopdemo.dao;
 
+import com.project.aopdemo.Account;
+
 public interface AccountDAO {
-    void addAccount();
+    void addAccount(Account theAccount, boolean vipFlag);
 }
